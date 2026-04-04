@@ -1,0 +1,113 @@
+.github-stats-main {
+  width: 90%;
+  padding: 60px 10px 40px;
+  margin: 0 auto;
+}
+
+/* Live stats counters */
+.github-live-stats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.github-live-stat {
+  padding: 24px 40px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 42px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* GitHub card grid */
+.github-stats-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto 24px;
+}
+
+.github-streak-container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.github-stat-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.github-stat-img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+/* GitHub profile link */
+.github-profile-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.github-view-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border: 1.5px solid;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.github-view-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+}
+
+@media (max-width: 900px) {
+  .github-stats-cards {
+    grid-template-columns: 1fr;
+  }
+  .github-stat-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .github-live-stat {
+    padding: 16px 24px;
+    min-width: 100px;
+  }
+  .stat-number {
+    font-size: 30px;
+  }
+  .stat-label {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,110 @@
+.publication-card-div {
+  color: #8892a8;
+  background: rgba(18, 24, 48, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 212, 255, 0.12);
+  border-radius: 16px;
+  padding: 2rem;
+  cursor: pointer;
+  flex: 1 1 25%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.publication-card-div:hover {
+  border-color: rgba(124, 58, 237, 0.4);
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15),
+    inset 0 0 0 1px rgba(124, 58, 237, 0.1);
+  transform: translateY(-4px);
+}
+
+.publication-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.pub-icon {
+  font-size: 28px;
+  margin-right: 12px;
+  filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.4));
+}
+
+.publication-name {
+  text-align: left;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  margin-bottom: 0.75rem;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  line-height: 1.2;
+  margin: 0px;
+}
+
+.publication-description {
+  overflow: hidden;
+  text-align: left;
+  display: -webkit-box;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 0.8rem;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.publication-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.publication-creation-date {
+  margin: 0;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: auto;
+  font-size: 13px;
+}
+
+.pub-venue-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "JetBrains Mono", monospace;
+  background: rgba(124, 58, 237, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  color: #a855f7;
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .publication-card-div {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-card-div {
+    flex: 1 1 100%;
+  }
+
+  .publication-name {
+    font-size: 16px;
+  }
+
+  .publication-description {
+    font-size: 14px;
+  }
+
+  .publication-details {
+    flex-direction: column;
+  }
+
+  .publication-creation-date {
+    font-size: 14px;
+  }
+}

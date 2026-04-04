@@ -1,0 +1,180 @@
+.repo-card-div {
+  color: #8892a8;
+  padding: 2rem;
+  cursor: pointer;
+  flex: 1 1 25%;
+}
+
+.repo-card-div:hover {
+  border-color: rgba(0, 212, 255, 0.4) !important;
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.2),
+    inset 0 0 0 1px rgba(0, 212, 255, 0.1) !important;
+  transform: translateY(-6px) !important;
+}
+
+.repo-stats {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #8892a8;
+}
+
+.repo-left-stat {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+}
+
+.language-color {
+  width: 10px;
+  height: 10px;
+  background-color: #00d4ff;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+
+.repo-left-stat span {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+.repo-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.repo-svg {
+  margin-right: 0.5rem;
+  min-width: 16px;
+}
+
+.repo-name {
+  text-align: left;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  margin-bottom: 0.75rem;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  line-height: 1.2;
+  margin: 0px;
+}
+
+.repo-star-svg {
+  margin-right: 0.3rem;
+}
+
+.repo-description {
+  overflow: hidden;
+  text-align: left;
+  display: -webkit-box;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 0.8rem;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.repo-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.repo-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.repo-creation-date {
+  margin: 0;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: auto;
+  font-size: 13px;
+}
+
+.repo-languages {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+@media (max-width: 1200px) {
+  .repo-card-div {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .repo-card-div {
+    flex: 1 1 100%;
+  }
+
+  .repo-name {
+    font-size: 16px;
+  }
+
+  .repo-description {
+    font-size: 14px;
+  }
+
+  .repo-details {
+    flex-direction: column;
+  }
+
+  .repo-creation-date {
+    font-size: 14px;
+  }
+}
+
+/* Repo Actions Row */
+.repo-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+.repo-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-family: "Inter", "Google Sans Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.repo-github-btn {
+  background-color: transparent;
+  color: #8892a8;
+  border: 1px solid #30363d;
+}
+
+.repo-github-btn:hover {
+  color: #fff;
+  border-color: #8b949e;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.repo-demo-btn {
+  background: linear-gradient(135deg, #00d4ff 0%, #0077ff 100%);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.repo-demo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 212, 255, 0.6);
+}

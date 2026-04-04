@@ -1,0 +1,107 @@
+{
+  "data": [
+    {
+      "id": "ai-risk-management",
+      "name": "AI-Powered IT Project Risk Management",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "url": "https://github.com/soumadipchangder/AI-Powered-IT-Project-Risk-Management-System",
+      "demoUrl": "https://soumya79-ai-project-risk-management-system.hf.space/",
+      "description": "Multi-Agent RAG system for real-time IT project risk analysis. Built with LangGraph, Groq, and ChromaDB — delivering autonomous risk insights through intelligent agent orchestration.",
+      "isFork": false,
+      "category": "AI",
+      "techStack": [
+        "LangGraph",
+        "Groq",
+        "ChromaDB",
+        "Python",
+        "RAG"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "LangChain",
+          "iconifyClass": "simple-icons:chainlink"
+        }
+      ]
+    },
+    {
+      "id": "pdf-summarization-qa",
+      "name": "PDF Summarization & QA Agent",
+      "createdAt": "2025-03-15T00:00:00Z",
+      "url": "https://github.com/soumadipchangder/AI-Agent-for-PDF-Summarization-and-Question-Answering",
+      "demoUrl": "https://soumya79-ai-pdf-agent.hf.space/",
+      "description": "Conversational document intelligence system with context-aware RAG. Upload PDFs and ask questions — the AI agent understands, summarizes, and answers with cited references.",
+      "isFork": false,
+      "category": "AI",
+      "techStack": [
+        "LangChain",
+        "OpenAI",
+        "Streamlit",
+        "FAISS",
+        "Python"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Streamlit",
+          "iconifyClass": "simple-icons:streamlit"
+        }
+      ]
+    },
+    {
+      "id": "deep-research-agent",
+      "name": "Deep Research AI Web Agent",
+      "createdAt": "2025-05-01T00:00:00Z",
+      "url": "https://github.com/soumadipchangder/Deep-Research-AI-Web-Agent",
+      "demoUrl": "https://soumya79-ai-web-research-agent.hf.space/",
+      "description": "Autonomous reasoning agent that performs multi-step web research. Combines search, analysis, and synthesis to deliver comprehensive research reports on any topic.",
+      "isFork": false,
+      "category": "Research",
+      "techStack": [
+        "LangGraph",
+        "Tavily",
+        "OpenAI",
+        "Python"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "breast-cancer-detection",
+      "name": "Breast Cancer Detection",
+      "createdAt": "2024-09-01T00:00:00Z",
+      "url": "https://github.com/soumadipchangder/Cancer-Detection-Tool",
+      "demoUrl": "https://soumya79-cancer-detection-systems.hf.space/",
+      "description": "CNN-based medical image classification model for breast cancer detection using TensorFlow. Achieves high accuracy in distinguishing malignant vs benign tumors from histopathology images.",
+      "isFork": false,
+      "category": "AI",
+      "techStack": [
+        "TensorFlow",
+        "Keras",
+        "CNN",
+        "Python",
+        "NumPy"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    }
+  ]
+}

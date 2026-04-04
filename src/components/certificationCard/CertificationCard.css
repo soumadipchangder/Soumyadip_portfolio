@@ -1,0 +1,156 @@
+.cert-card-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 40px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  vertical-align: top;
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  min-height: 280px;
+}
+
+.cert-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 212, 255, 0.3);
+}
+
+.cert-top {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cert-logo {
+  max-width: 60%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.cert-middle {
+  padding: 25px 20px 10px 20px;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cert-title {
+  font-family: "Inter", "Google Sans Medium", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+}
+
+.cert-bottom {
+  padding: 0 20px 25px 20px;
+  margin-top: auto;
+  text-align: left;
+}
+
+.cert-instructor {
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .cert-card-link {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-card-link {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+  }
+
+  .cert-card {
+    min-height: auto;
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: inherit;
+  letter-spacing: 0.15em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.fadeIn-top {
+  top: 20%;
+}

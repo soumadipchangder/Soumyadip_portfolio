@@ -1,0 +1,53 @@
+.what-i-build-main {
+  width: 90%;
+  padding: 60px 10px 40px;
+  margin: 0 auto;
+}
+
+.wib-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wib-card {
+  padding: 36px 28px;
+  text-align: center;
+  cursor: default;
+}
+
+.wib-card-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.4));
+}
+
+.wib-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 12px;
+}
+
+.wib-card-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.wib-card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+@media (max-width: 900px) {
+  .wib-cards-container {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+}

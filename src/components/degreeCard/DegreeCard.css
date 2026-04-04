@@ -1,0 +1,156 @@
+.degree-card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-family: "Inter", "Google Sans Medium", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-family: "Inter", "Google Sans Medium", sans-serif;
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.degree-placeholder-icon {
+  width: 120px;
+  height: 120px;
+  background: rgba(0, 212, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-header {
+  max-width: inherit;
+  display: flex;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+}
+
+.body-header-title {
+  align-items: flex-start;
+  width: 80%;
+}
+
+.body-header-duration {
+  width: 20%;
+}
+.duration {
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  font-size: 16px;
+  padding-right: 10px;
+  float: right;
+  font-weight: 500;
+}
+
+.body-content {
+  max-width: inherit;
+  border-radius: 0px 0px 7px 7px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+  line-height: 1.7;
+}
+
+.card-body {
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-body:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.visit-btn {
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 0px;
+  float: right;
+  transition: all 0.2s ease;
+}
+
+.visit-btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", "Google Sans Regular", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .degree-card {
+    flex-direction: column;
+  }
+
+  .body-header {
+    flex-direction: column;
+  }
+
+  .body-header-title {
+    width: 100%;
+  }
+
+  .body-header-duration {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .duration {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+  }
+
+  .card-img {
+    width: 200px;
+  }
+
+  .card-body {
+    width: 100% !important;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+  }
+}
