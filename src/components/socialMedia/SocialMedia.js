@@ -56,9 +56,8 @@ export default function SocialMedia(props) {
                 </span>
               ) : (
                 <i
-                  className={`${media.iconClass || "fab"} ${
-                    media.fontAwesomeIcon
-                  } social-icon-fa`}
+                  className={`${media.iconClass || "fab"} ${media.fontAwesomeIcon
+                    } social-icon-fa`}
                 ></i>
               )}
             </IconWrapper>
