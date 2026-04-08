@@ -18,13 +18,13 @@ export default function PublicationCard({ pub, theme }) {
             <span className="pub-icon" role="img" aria-label="paper">
               📄
             </span>
-            <p className="publication-name" style={{ color: theme.text }}>
+            <p className="publication-name" style={{ color: "#e0e6f0" }}>
               {pub.name}
             </p>
           </div>
           <p
             className="publication-description"
-            style={{ color: theme.secondaryText }}
+            style={{ color: "#c8d0e0" }}
           >
             {pub.description}
           </p>
@@ -32,7 +32,7 @@ export default function PublicationCard({ pub, theme }) {
           <div className="publication-details">
             <p
               className="publication-creation-date subTitle"
-              style={{ color: theme.secondaryText }}
+              style={{ color: "#8892a8" }}
             >
               Published on {pub.createdAt.split("T")[0]}
             </p>

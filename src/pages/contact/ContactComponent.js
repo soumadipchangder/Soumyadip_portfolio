@@ -61,7 +61,7 @@ class Contact extends Component {
               </h2>
               <p
                 style={{
-                  color: theme.secondaryText,
+                  color: "#c8d0e0",
                   fontSize: "16px",
                   lineHeight: "1.6",
                 }}
