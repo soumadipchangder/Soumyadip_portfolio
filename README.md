@@ -4,7 +4,7 @@ Welcome to the source code for my personal portfolio! This project showcases my 
 
 ## 🚀 Live Demo
 
-[https://www.soumyadipchangder.com/](https://soumyadipchangderportfolio.vercel.app/)
+[www.soumyadipchangder.com/](https://soumyadipchangderportfolio.vercel.app/)
 
 ## 🛠️ Tech Stack
 
